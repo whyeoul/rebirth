@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Secular+One&family=Spinnaker&display=swap');
+
+
+
+body {width: 100%;
+  margin: 0;
+    background-color:#e0e0e0;}
+  
+  #title{ border-bottom: 1px solid black;
+         height: 40px;
+         margin-top: -10px;
+        font-size: 20px;
+        background-color:#e0e0e0;
+        line-height: 45px;
+        padding-top: 10px;
+     
+         }
+    
+         .zero{float: left;
+          height: 40px;
+          width: 80px; 
+          text-align: center;
+          color: #df43ff;
+          border-bottom: 1px solid black;
+          padding-left: 10px;
+          background-color:#e0e0e0;
+          margin-left: -10px;
+        }
+  
+  
+  .jan{border-left: 1px solid black;
+    float: left;
+    height: 40px;
+    width: 50px; 
+    text-align: center;
+    color: #c9c9c9;}
+  
+  .feb{border-left: 1px solid black;
+      height: 40px;
+      width: 50px;
+       float: left;
+        text-align: center;
+        color: #c9c9c9;}
+        
+  .mar{border-left: 1px solid black;
+        height: 40px;
+        width: 50px;
+        float: left;
+        text-align: center;
+        color: #c9c9c9;}
+  
+  .apr{border-left: 1px solid black;
+          height: 40px;
+          width: 50px;
+          float: left;
+          text-align: center;}
+    
+  .may{border-left: 1px solid black;
+    height: 40px;
+    width: 50px;
+    float: left;
+    text-align: center;}
+  
+  .jun{border-left: 1px solid black;
+      height: 40px;
+      width: 50px;
+      float: left;
+      text-align: center;}
+  
+  .jul{border-left: 1px solid black;
+        height: 40px;
+        width: 50px;
+        float: left;
+        text-align: center;}
+  
+  .aug{border-left: 1px solid black;
+      height: 40px;
+      width: 50px;
+      float: left;
+      text-align: center;
+      color: #c9c9c9;}
+  
+  .sep{border-left: 1px solid black;
+        height: 40px;
+        width: 50px;
+        float: left;
+        text-align: center;}
+  
+  .oct{border-left: 1px solid black;
+          height: 40px;
+          width: 50px;
+          float: left;
+          text-align: center;}
+  
+  .nov{border-left: 1px solid black;
+            height: 40px;
+            width: 50px;
+            float: left;
+            text-align: center;}
+  
+  .dec{border-left: 1px solid black;
+              border-right: 1px solid black;
+              height: 40px;
+              width: 50px;
+              float: left;
+              text-align: center;}
+
+
+  #date
+  {border-right: 1px solid black;
+    height: 100%;
+    width: 101px;
+    background-color: #df43ff;
+    text-align: center;
+    margin-left: -10px;
+    float: left;
+  }
+  
+  a {text-decoration: none;}
+
+
+  a:link {color: white;}
+  
+  .one{border-bottom: 1px solid black;
+      height: 30px; 
+      padding-top: 7px;
+      
+      }
+  
+  .two{border-bottom: 1px solid black;
+    height: 30px; 
+    padding-top: 7px;
+    }
+  
+    .three{border-bottom: 1px solid black;
+        height: 30px; 
+        padding-top: 7px;
+        }
+  
+
+
+        .yeoul1{  position: absolute;
+  font-size: 10px;
+  font-weight: 600;
+          cursor: move;
+        color: #810016;
+        padding: 10px;
+     background-size: cover;
+     text-align: center;
+     width: 120px;
+          background-image: url(muji2.png);
+          }
+
+          
+          .yeoul2{  position: absolute;
+            font-size: 4px;
+                    text-align: center;
+                    cursor: move;
+                  color: white;
+                    position:absolute;
+                    background-image: url(ac2.png);
+                    background-size:cover;
+                    padding:10px;
+                    text-align: center;
+                    width: 140px;
+              
+
+                    
+                    }
+          
+
+        #menu{width: 190px;
+              background-color: white;
+              font-size: 13px;
+              margin: 10px;
+              float: left;
+              text-align: center;
+              
+              }
+        .gamnamoo_title{ text-align: center;
+                      font-size: 15px;
+                      padding-top: 20px;
+                      
+                      padding-bottom: 20px;
+                     }
+
+        .gamnamoo{padding-bottom: 10px;
+                                  padding-top: 10px;}
+
+
+
+        #menu2{width: 160px;
+              background-color: rgb(255, 255, 255);
+              color: rgb(0, 0, 0);
+            
+              margin: 10px;
+              float: left;
+              
+     }
+
+        .starbucks_title{
+      
+        
+          text-align: center;
+                      font-size: 15px;
+                      padding-top: 30px;
+                      line-height: 5px;
+                      padding-bottom: 30px;
+                     }
+                     
+          .starbucks{padding-bottom: 10px;
+            padding-left: 20px;
+                                  padding-top: 10px;}
+                                 
+
+
+
+    
+          #menu3{width: 160px;
+           background-color: white;
+          color: rgb(0, 0, 0);
+           margin: 10px;
+          float: left;
+                           }                     
+          .routers_title{
+                            
+
+                              
+           text-align: center;
+           font-size: 15px;
+           padding-top: 30px;
+           line-height: 5px;
+           padding-bottom: 30px;
+          }
+                                                                 
+          .routers{padding-bottom: 10px;
+           padding-top: 10px;}
+                                                       
+                      
+                      
+
+           #menu4{width: 180px;
+          background-color: white;
+          color: black(73, 2, 2);
+
+           margin: 10px;
+          float: left;
+          }                                                                     
+           .madang_title{
+
+            text-align: center;
+            font-size: 15px;
+            padding-top: 30px;
+            line-height: 5px;
+            padding-bottom: 30px;
+            }
+                                                                     
+          .madang{padding-bottom: 10px;
+            padding-top: 10px;}
+
+           #menu5{width: 180px;
+            background-color: white;
+            color: rgb(0, 0, 0);
+            
+             margin: 10px;
+            float: left;
+            }
+                                                                      
+             .sushiro_title{
+                                                                             
+            font-family: 'Spinnaker', sans-serif;
+            text-align: center;
+            font-size: 15px;
+            padding-top: 30px;
+            line-height: 5px;
+            padding-bottom: 30px;
+           }
+                                                                       
+            .sushiro{padding-bottom: 10px;
+             padding-top: 10px;
+             padding-left: 20px;}
+
+             #menu6{width: 180px;
+              background-color: white;
+              color: rgb(0, 0, 0);
+               margin: 10px;
+              float: left;
+              }
+                                                                         
+               .maudi_title{
+                                                                               
+              font-family: 'Spinnaker', sans-serif;
+              text-align: center;
+              font-size: 15px;
+              padding-top: 30px;
+              line-height: 5px;
+              padding-bottom: 30px;
+              }
+                                                                         
+              .maudi{padding-bottom: 10px;
+               padding-top: 10px;}
+
+
+               #menu7{width: 180px;
+                background-color: rgb(255, 255, 255);
+                color: rgb(0, 0, 0);
+                margin: 10px;
+                float: left;
+               
+                
+       }
+  
+          .cold_title{
+        
+            font-family: 'Spinnaker', sans-serif;
+          
+            text-align: center;
+                        font-size: 15px;
+                        padding-top: 30px;
+                        line-height: 5px;
+                        padding-bottom: 30px;
+                       }
+  
+                       
+            .cold{padding-bottom: 10px;
+                                    padding-top: 10px;}
+
+
+
+               #menu8{width: 180px;
+              background-color: white;
+              color: rgb(0, 0, 0);
+               margin: 10px;
+              float: left;
+              
+              }
+                                                                         
+               .hadong_title{
+                                                                               
+              font-family: 'Spinnaker', sans-serif;
+              text-align: center;
+              font-size: 15px;
+              padding-top: 30px;
+              line-height: 5px;
+              padding-bottom: 30px;
+             }
+                                                                         
+              .hadong{padding-bottom: 10px;
+               padding-top: 10px;}
+
+                                                                           
+                 .myeongdong_title{
+
+                text-align: center;
+                font-size: 15px;
+                padding-top: 30px;
+                line-height: 5px;
+                padding-bottom: 30px;
+                }
+                                                                           
+                .myeongdong{padding-bottom: 10px;
+                 padding-top: 10px;
+                text-align: center;
+              padding-left: 10px;}
+
+
+                 #menu10{width: 200px;
+                  background-color: white;
+                  margin: 10px;
+                  float: left;
+                  margin-left: 35px;
+                 
+                  
+         }
+    
+            .pfiff_title{
+              text-align: center;
+              font-size: 15px;
+              padding-top: 20px;
+              
+              padding-bottom: 20px;
+              }
+    
+                         
+              .pfiff{padding-bottom: 10px;
+                padding-top: 10px;
+                padding-left: 20px;}
+
+
+
+                #menu11{width: 280px;
+                  background-color: rgb(255, 255, 255);
+                  color: rgb(0, 0, 0);
+                  margin: 10px;
+                  float: left;
+                  
+         }
+    
+            .inandout_title{
+
+              text-align: center;
+              font-size: 15px;
+              padding-top: 20px;
+              
+              padding-bottom: 20px;
+                          }
+    
+                         
+              .inandout{padding-bottom: 10px;
+                                      padding-top: 10px;}
+
+
+
+
+                #menu12{width: 270px;
+                  background-color: rgb(255, 255, 255);
+                  color: rgb(0, 0, 0);
+                  margin: 10px;
+                  float: left;
+                  
+         }
+    
+            .approach_title{
+
+              text-align: center;
+                          font-size: 15px;
+                          padding-top: 30px;
+                          line-height: 5px;
+                          padding-bottom: 30px;
+                         }
+    
+                         
+              .approach{padding-bottom: 10px;
+                                      padding-top: 10px;}
+
+
+
+
+                #menu13{width: 230px;
+                  background-color: rgb(255, 255, 255);
+                  color: rgb(0, 0, 0);
+                  margin: 10px;
+                  float: left;
+                  
+         }
+    
+            .jennys_title{
+          
+              text-align: center;
+                          font-size: 15px;
+                          padding-top: 30px;
+                          line-height: 5px;
+                          padding-bottom: 30px;
+                          }
+    
+                         
+              .jennys{padding-bottom: 10px;
+                                      padding-top: 10px;}
+                                     
+
+
+
+                #menu14{width: 220px;
+                  background-color: white;
+                  color: rgb(0, 0, 0);
+                   margin: 10px;
+                  float: left;
+                  }
+                                                                             
+                   .hongkong_title{
+
+                  text-align: center;
+                  font-size: 15px;
+                  padding-top: 30px;
+                  line-height: 5px;
+                  padding-bottom: 30px;
+                 }
+                                                                             
+                  .hongkong{padding-bottom: 10px;
+                   padding-top: 10px;}
+
+
+
+                #menu15{width: 220px;
+                  background-color: white;
+                  color: rgb(0, 0, 0);
+                   margin: 10px;
+                  float: left;
+                  }
+                                                                             
+                   .bonjuk_title{
+
+                  text-align: center;
+                  font-size: 15px;
+                  padding-top: 30px;
+                  line-height: 5px;
+                  padding-bottom: 30px;
+                 }
+                                                                             
+                  .bonjuk{padding-bottom: 10px;
+                   padding-top: 10px;
+                   padding-left: 20px;}
+
+
+                   #menu16{width: 170px;
+                    background-color: white;
+                    color: rgb(0, 0, 0);
+                     margin: 10px;
+                    float: left;
+                    }
+                                                                               
+                     .agarang_title{
+                                                                                     
+                    font-family: 'Spinnaker', sans-serif;
+                    text-align: center;
+                    font-size: 15px;
+                    padding-top: 30px;
+                    line-height: 5px;
+                    padding-bottom: 30px;
+                   }
+                                                                               
+                    .agarang{padding-bottom: 10px;
+                     padding-top: 10px;
+                     padding-left: 20px;}
+
+                     #menu17{width: 220px;
+                      background-color: white;
+                     color: rgb(0, 0, 0);
+
+                      margin: 10px;
+                     float: left;
+                                      }
+                                 
+                     .lookback_title{
+
+                      text-align: center;
+                      font-size: 15px;
+                      padding-top: 30px;
+                      line-height: 5px;
+                      padding-bottom: 30px;
+                      }
+                                 
+              
+                    
+
+                      #menu18{width: 260px;
+                        background-color: white;
+                        margin: 10px;
+                        float: left;
+                       
+                       
+                        
+               }
+          
+                  .mrkebab_title{
+                    text-align: center;
+                    font-size: 15px;
+                    padding-top: 20px;
+                    
+                    padding-bottom: 20px;
+                    }
+          
+                               
+
+                         
+                    .mekebab{padding-bottom: 10px;
+                      padding-top: 10px;}
+      
+      
+                      #menu19{width: 290px;
+                        background-color: white;
+                        margin: 10px;
+                        float: left;
+                        margin-left: 35px;
+                       
+                       
+                        
+               }
+          
+                  .danpat_title{
+                    text-align: center;
+                    font-size: 15px;
+                    padding-top: 20px;
+                    
+                    padding-bottom: 20px;
+                    }
+          
+                               
+
+                         
+                    .danpat{padding-bottom: 10px;
+                      padding-top: 10px;}
+      
+      
+                      #menu20{width: 240px;
+                        background-color: white;
+                        margin: 10px;
+                        float: left;
+                        margin-left: 35px;
+                       
+                       
+                        
+               }
+          
+                  .gumokdang_title{
+                    text-align: center;
+                    font-size: 15px;
+                    padding-top: 20px;
+                    
+                    padding-bottom: 20px;
+                    }
+          
+                               
+
+                         
+                    .gumokdang{padding-bottom: 10px;
+                      padding-top: 10px;}
+      
+                      a:visited { color:black; }
+
+
+                      .menufact_title{
+                        text-align: center;
+                        font-size: 15px;
+                        padding-top: 20px;
+                        
+                        padding-bottom: 20px;
+                        }
+          
+                        .menufact{padding-bottom: 10px;
+                          padding-top: 10px;
+                         text-align: center;
+                      }
+         
+
+                      .obiya_title{
+                        text-align: center;
+                        font-size: 15px;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                        }
+          
+                        .obiya{padding-bottom: 10px;
+                          padding-top: 10px;
+                         text-align: center;
+                      }
+                      
+
+
+                      .grous_title{
+                        text-align: center;
+                        font-size: 15px;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                        }
+          
+                        .grous{padding-bottom: 10px;
+                          padding-top: 10px;
+                         text-align: center;
+                         padding-right: 10px;
+                      }

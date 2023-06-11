@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Secular+One&family=Spinnaker&display=swap');
+
+
+
+body {width: 100%;
+  margin: 0;
+    background-color:#e0e0e0;}
+  
+  #title{ border-bottom: 1px solid black;
+         height: 40px;
+         margin-top: -10px;
+        font-size: 20px;
+        background-color:#e0e0e0;
+        line-height: 45px;
+        padding-top: 10px;
+     
+         }
+    
+         .zero{float: left;
+          height: 40px;
+          width: 80px; 
+          text-align: center;
+          color: #df43ff;
+          border-bottom: 1px solid black;
+          padding-left: 10px;
+          background-color: #e0e0e0;
+          margin-left: -10px;
+        }
+  
+  
+  .jan{border-left: 1px solid black;
+    float: left;
+    height: 40px;
+    width: 50px; 
+    text-align: center;
+    color: #c9c9c9;}
+  
+  .feb{border-left: 1px solid black;
+      height: 40px;
+      width: 50px;
+       float: left;
+        text-align: center;
+        color: #c9c9c9;}
+        
+  .mar{border-left: 1px solid black;
+        height: 40px;
+        width: 50px;
+        float: left;
+        text-align: center;
+        color: #c9c9c9;}
+  
+  .apr{border-left: 1px solid black;
+          height: 40px;
+          width: 50px;
+          float: left;
+          text-align: center;}
+    
+  .may{border-left: 1px solid black;
+    height: 40px;
+    width: 50px;
+    float: left;
+    text-align: center;}
+  
+  .jun{border-left: 1px solid black;
+      height: 40px;
+      width: 50px;
+      float: left;
+      text-align: center;}
+  
+  .jul{border-left: 1px solid black;
+        height: 40px;
+        width: 50px;
+        float: left;
+        text-align: center;}
+  
+  .aug{border-left: 1px solid black;
+      height: 40px;
+      width: 50px;
+      float: left;
+      text-align: center;
+      color: #c9c9c9;}
+  
+  .sep{border-left: 1px solid black;
+        height: 40px;
+        width: 50px;
+        float: left;
+        text-align: center;}
+  
+  .oct{border-left: 1px solid black;
+          height: 40px;
+          width: 50px;
+          float: left;
+          text-align: center;}
+  
+  .nov{border-left: 1px solid black;
+            height: 40px;
+            width: 50px;
+            float: left;
+            text-align: center;}
+  
+  .dec{border-left: 1px solid black;
+              border-right: 1px solid black;
+              height: 40px;
+              width: 50px;
+              float: left;
+              text-align: center;}
+
+
+  #date
+  {border-right: 1px solid black;
+    height: 100%;
+    width: 101px;
+    background-color: #df43ff;
+    text-align: center;
+    margin-left: -10px;
+    float: left;
+  }
+  
+  a {text-decoration: none;}
+
+
+  a:link {color: white;}
+  
+  .one{border-bottom: 1px solid black;
+      height: 30px; 
+      padding-top: 7px;
+      
+      }
+  
+  .two{border-bottom: 1px solid black;
+    height: 30px; 
+    padding-top: 7px;
+    }
+  
+    .three{border-bottom: 1px solid black;
+        height: 30px; 
+        padding-top: 7px;
+        }
+  
+
+
+  
+                    
+
+        #receipt{width: 260px;
+              background-color: white;
+              color: blue;
+              margin: 10px;
+              float: left;
+             
+              }
+        .receipt_title{ text-align: center;
+                    
+                      padding-top: 10px;
+                      
+                      padding-bottom:10px;
+                      }
+
+        .receipt_top{padding-bottom: 10px;
+                                  padding-top: 10px;
+                                 }
+
+        .receipt_middle{padding-bottom: 10px;
+                      padding-top: 10px;
+                      
+                     }                           
+
+
+        .receipt_middle2{padding-bottom: 10px;
+          
+          
+         }   
+
+       .receipt_bottom{padding-bottom: 10px;
+                      padding-top: 10px;
+                     }               
+                  
+
+                     .receipt_bottom2{padding-bottom: 10px;
+                      
+                     } 
+
+                      #receipt2{width: 243px;
+                        background-color:white;
+
+                        margin: 10px;
+                        float: left;
+                        
+                        }
+                .receipt2_title{ text-align: center;
+                              font-size: 13px;
+                              padding-top: 20px;
+                              line-height: 4px;
+                             }
+        
+                .receipt2_top{padding-bottom: 10px;
+
+                                          }
+        
+                .receipt2_middle{padding-bottom: 10px;
+
+                              
+                             }                           
+        
+        
+               .receipt2_bottom{padding-bottom: 10px;
+
+                             }    
+                             
+                             
+                             .receipt2_last{ text-align: left;
+                              font-size: 13px;
+          padding-left: 10px;
+        padding-right: 10px;
+                             }
+        
+
+                             a:visited { color:black; }

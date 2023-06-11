@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css'><link rel="stylesheet" href="./style copy.css">
+  <title>2022 갱생</title>
+  
+  
+
+</head>
+<body>
+
+    
+    <div id="title">
+
+    <div class="left">
+    Yeoul
+    </div>
+
+    <div class="right">
+    Sasa[44]
+    </div>
+</div>
+
+<!--4월 5일 -->
+<div class="sasa1">
+      <button type="button" class="date">4월 5일</button>
+        <div class="content">
+
+            <div id="list2">
+                감나무집<br>
+                스타벅스<br>
+                스타벅스<br>
+                라우터<br>
+                카페마당<br>
+                카페마당<br>
+                </div>
+            
+                <div id="list3">
+                    생선구이<br>
+                    카라멜와플<br>
+                    코르타도<br>
+                    드립커피<br>
+                    크림가리비스파게티<br>
+                    카푸치노<br>
+                    </div>
+            
+                
+                <div id="list4">
+                    11,000<br>
+                    2,300<br>
+                    6,500<br>
+                    11,000<br>
+                    2,300<br>
+                    6,500<br>
+                    </div>
+      
+                  </div>
+    
+</div>
+
+<!--4월 6일 -->
+<div class="sasa1">
+  <button type="button" class="date">4월 6일</button>
+    <div class="content">
+
+        <div id="list2">
+            감나무집<br>
+            감나무집<br>
+            스타벅스<br>
+            스타벅스<br>
+            스시로<br>
+            </div>
+        
+            <div id="list3">
+                돼지불백<br>
+                오징어볶음<br>
+                카라멜와플<br>
+                카푸치노<br>
+                초밥<br>
+                </div>
+        
+            
+            <div id="list4">
+                11,000<br>
+                12,000<br>
+                2,300<br>
+                5,500<br>
+                22,000
+                </div>
+  
+              </div>
+
+</div>
+
+
+<!--4월 12일 -->
+<div class="sasa1">
+  <button type="button" class="date">4월 12일</button>
+    <div class="content">
+
+        <div id="list2">
+            감나무집<br>
+            감나무집<br>
+            스타벅스<br>
+            스타벅스<br>
+            라우터<br>
+            마우디<br>
+            마우디<br>
+            콜드레시피<br>
+            </div>
+        
+            <div id="list3">
+                돼지불백<br>
+                오징어볶음<br>
+                카라멜와플<br>
+                카푸치노<br>
+                드립커피<br>
+                명란오일파스타<br>
+                스테이크<br>
+                더블s<br>
+                </div>
+        
+            
+            <div id="list4">
+                11,000<br>
+                12,000<br>
+                2,300<br>
+                5,500<br>
+                6,500<br>
+                15,000<br>
+                35,000<br>
+                5,500<br>
+                </div>
+  
+              </div>
+
+</div>
+
+<!--4월 20일 -->
+<div class="sasa1">
+  <button type="button" class="date">4월 20일</button>
+    <div class="content">
+
+        <div id="list2">
+            감나무집<br>
+            감나무집<br>
+            스타벅스<br>
+            스타벅스<br>
+            명동돈가스<br>
+            라우터<br>
+            </div>
+        
+            <div id="list3">
+                돼지불백<br>
+                오징어볶음<br>
+                카라멜와플<br>
+                카푸치노<br>
+                히레가스<br>
+                플랫화이트<br>
+                </div>
+        
+            
+            <div id="list4">
+                11,000<br>
+                12,000<br>
+                2,300<br>
+                5,500<br>
+                15,00<br>
+                6,500<br>
+                </div>
+  
+              </div>
+</div>
+
+
+<!--yeoul 1 -->
+<div class="yeoul1">
+   안녕하십니까 어서오십시오
+  </div>
+
+<!--yeoul 1 -->
+<div class="yeoul1">
+   화장실 다녀오겠습니다
+   </div>
+ 
+
+<!--yeoul -->
+<div class="sasa1">
+    2팀 밥 다녀오겠습니다
+  </div>
+  
+
+
+    <script>
+    (function($) {
+    $.fn.drags = function(opt) {
+
+        opt = $.extend({handle:"",cursor:"move"}, opt);
+
+        if(opt.handle === "") {
+            var $el = this;
+        } else {
+            var $el = this.find(opt.handle);
+        }
+
+        return $el.css('cursor', opt.cursor).on("mousedown", function(e) {
+            if(opt.handle === "") {
+                var $drag = $(this).addClass('draggable');
+            } else {
+                var $drag = $(this).addClass('active-handle').parent().addClass('draggable');
+            }
+            var z_idx = $drag.css('z-index'),
+                drg_h = $drag.outerHeight(),
+                drg_w = $drag.outerWidth(),
+                pos_y = $drag.offset().top + drg_h - e.pageY,
+                pos_x = $drag.offset().left + drg_w - e.pageX;
+            $drag.css('z-index', 1000).parents().on("mousemove", function(e) {
+                $('.draggable').offset({
+                    top:e.pageY + pos_y - drg_h,
+                    left:e.pageX + pos_x - drg_w
+                }).on("mouseup", function() {
+                    $(this).removeClass('draggable').css('z-index', z_idx);
+                });
+            });
+            e.preventDefault(); // disable selection
+        }).on("mouseup", function() {
+            if(opt.handle === "") {
+                $(this).removeClass('draggable');
+            } else {
+                $(this).removeClass('active-handle').parent().removeClass('draggable');
+            }
+        });
+
+    }
+})(jQuery);
+
+$('.sasa1').drags();
+$('.yeoul1').drags();
+
+
+
+
+
+
+// 랜덤 sasa
+var divs = document.getElementsByClassName('sasa1');
+// get window width and height
+var winWidth = window.innerWidth;
+var winHeight = window.innerHeight;
+
+// i stands for "index". you could also call this banana or haircut. it's a variable
+for ( var i=0; i < divs.length; i++ ) {
+ 	
+    // shortcut! the current div in the list
+    var thisDiv = divs[i];
+    
+    // get random numbers for each element
+    randomTop = getRandomNumber(0, winHeight);
+    randomLeft = getRandomNumber(0, winWidth);
+    
+    // update top and left position
+    thisDiv.style.top = randomTop +"px";
+    thisDiv.style.left = randomLeft +"px";
+    
+}
+
+// function that returns a random number between a min and max
+function getRandomNumber(min, max) {
+    
+  return Math.random() * (max - min) + min;
+    
+}
+
+
+// 랜덤 yeoul1
+var divs = document.getElementsByClassName('yeoul1');
+// get window width and height
+var winWidth = window.innerWidth;
+var winHeight = window.innerHeight;
+
+// i stands for "index". you could also call this banana or haircut. it's a variable
+for ( var i=0; i < divs.length; i++ ) {
+ 	
+    // shortcut! the current div in the list
+    var thisDiv = divs[i];
+    
+    // get random numbers for each element
+    randomTop = getRandomNumber(0, winHeight);
+    randomLeft = getRandomNumber(0, winWidth);
+    
+    // update top and left position
+    thisDiv.style.top = randomTop +"px";
+    thisDiv.style.left = randomLeft +"px";
+    
+}
+
+// function that returns a random number between a min and max
+function getRandomNumber(min, max) {
+    
+  return Math.random() * (max - min) + min;
+    
+}
+
+
+
+
+
+var coll = document.getElementsByClassName("date");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+      // content.style.width = "500px";
+      // content.style.height = "500px";
+
+
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+
+
+
+
+
+        </script>
+        
+        
+
+
+
+    
+    
+            
+           
+
+</body>
+</html>

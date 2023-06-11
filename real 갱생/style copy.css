@@ -1,0 +1,115 @@
+body {
+  background-color:#e0e0e0;
+
+}
+
+
+.date{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+
+  width:100%;
+  border: none;
+  text-align: left;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: black;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+
+#title{ border-bottom: 1px solid black;
+       border-width: 100%;
+       padding:10px;
+      font-size: 20px;
+       background-color: white;
+       position:relative;
+      
+       }
+  
+
+       #sasaheader {
+          padding: 10px;
+          cursor: move;
+        }
+      
+        .date {background-color: red;
+              color:white;
+              float: left;}
+      
+        a:link {
+          color : red;
+        }
+        a:visited {
+          color : red;
+        }
+        a:hover {
+          color : red;
+        }
+        a:active {
+          color : red;
+        }
+
+
+       .left {float: right;}
+
+
+.sasa1{  position: absolute;
+  
+  text-align: left;
+  cursor: move;
+
+  background-color: white;
+  position:absolute;
+  border: 1px solid black;
+  }
+
+
+  .yeoul1{  position: absolute;
+  
+    text-align: left;
+    cursor: move;
+  
+    background-color: white;
+    position:absolute;
+    border: 1px solid black;
+    }
+  
+  
+
+#list2 {float:left;
+      padding-top: 10px;
+      padding-right:20px;
+      padding-left: 20px;
+      padding-bottom: 10px;
+      border-right: 1px solid gray;}
+
+#list3 {float:left;
+          padding-top: 10px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-bottom: 10px;
+          border-right: 1px solid gray;}
+
+#list4 {float:left;
+          padding-top: 10px;
+          padding-left: 20px;
+          
+          padding-bottom: 10px;   
+          color: red;}
+
+      
+          
+
+
